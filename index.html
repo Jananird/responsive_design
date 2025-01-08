@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            background-color: white;
+            
+           
+        }
+        .container{
+        
+        /* display: grid; */
+        grid-template-columns: 1fr 1fr;}
+
+        
+        
+        
+
+            header{
+                margin-top: 20px;
+                margin-left: 140px;
+                margin-right: 120px;
+                background-color: rgb(60, 153, 185);
+               
+height: 10vh;
+width: 75%;
+            }
+
+            .flex-container {
+            display: flex;
+            gap: 1px; /* Space between section2 and section3 */
+            margin-top: 6px;
+            justify-content: space-between;
+        }
+            
+            .sec1{
+                margin-top: 6px;
+                margin-left: 140px;
+                margin-right: 120px;
+                background-color: rgb(142, 100, 11);
+                
+height: 38vh;
+width: 75%;
+
+            }
+            .sec2{
+                margin-top: 1px;
+                margin-left: 140px;
+                margin-right: 0px;
+                background-color: rgb(107, 37, 5);
+                
+height: 25vh;
+width: 24%;
+
+            }
+
+            .sec3{
+                margin-top: 1px;
+                margin-left: 0px;
+                margin-right: 0px;
+                background-color: rgb(107, 37, 5);
+                
+height: 25vh;
+width: 24%;
+
+            }
+            .sec4{
+                margin-top: 1px;
+                margin-left: 0px;
+                margin-right: 180px;
+                background-color: rgb(107, 37, 5);
+                
+height: 25vh;
+width: 24%;
+}
+
+.text-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: 140px;
+    margin-right: 290px;}
+    .text{
+        font-size: 15px;
+        font-style: italic;
+    }
+           
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <header>header</header>
+        <section class="sec1" >section1 </section>
+        <div class="flex-container">
+        <section class="sec2">section2 </section>
+        <section class="sec3">section3</section>
+        <section class="sec4">section4</section></div>
+          </div>
+          <div class="text-container">
+            <div class="text"><p>Sample text for section2 in universal design</p>
+                <p>Sample text for section2</p>
+                <p>Sample text for section2 in responsive</p>
+                
+            </div>
+           
+            <div class="text"><p>Sample text for section3 in universal design </p>
+                <p>Sample text for section3</p>
+                <p>Sample text for section3 in responsive</p>
+                
+            </div>
+            <div class="text"><p>Sample text for section4 in universal design</p>
+                <p>Sample text for section4</p>
+                <p>Sample text for section4 in responsive</p>
+                
+            </div>
+          </div>
+</body>
+</html>
